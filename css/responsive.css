@@ -1,0 +1,555 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+
+ .image-icon ul{
+  display: none;
+ } 
+.hero-content h1{
+     font-size: 35px!important;
+     margin-bottom: 24px;
+}
+.linebar{
+  top: 12px;
+    right: 18px;
+}
+.about-content h2{
+  font-weight: 600;
+    font-size: 26px;
+}
+
+.social-icon-hero ul{
+  display: none;
+}
+#about-section {
+
+      padding-bottom: 20px;
+}
+.feature-content h2{
+    font-weight: 600;
+    font-size: 26px;
+        padding-right: 0;
+}
+.pizz-right h3{
+
+      font-size: 20px;
+}
+.pizz-right h2{
+      font-size: 30px;
+}
+.pizz-right{
+      padding-bottom: 0px;
+          padding-top: 55px;
+}
+.delicious-content h2{
+    font-weight: 600;
+    font-size: 26px;
+}
+.delicious-text h2{
+  padding-left: 282px;
+}
+.delicious-line-left{
+
+  background: #9f9292;
+    height: 2px;
+    width: 226px;
+    position: absolute;
+    top: 15px;
+    left: 208px;
+}
+#popular-courses {
+
+  padding-top: 70px;
+    padding-bottom: 70px;
+}
+.chef-content h2{
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.social-content{
+  height: 133%;
+}
+.chef-text{
+
+  background-color: #fff;
+    padding-top: 14px;
+    position: absolute;
+    width: 84%;
+    height: 30%;
+    top: 170px;
+    left: 19px;
+}
+.reservation-left h2{
+     font-weight: 600;
+    font-size: 26px;
+}
+.reserform{
+      padding-left: 20px;
+
+}
+.btn-form{
+      padding: 16px 32px;
+}
+.btn-reserve {
+      left: 74px;
+          top: 366px;
+}
+.form-contenthead {
+      padding-bottom: 50px;
+}
+.blog-left h2{
+       font-weight: 600;
+    font-size: 26px;
+}
+.feature-text {
+  padding: 15px;
+}
+.feature-text p {
+
+      font-size: 12px;
+}
+.feature-text h3{
+  font-size: 15px;
+}
+footer{
+  margin-top: 58px;
+  padding-top: 50px;
+      padding-bottom: 45px;
+
+}
+.footerbtn{
+
+  display: inline-flex;
+}
+.footer-social{
+      padding-left: 0;
+}
+
+
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+
+
+
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+header{
+  background: #d1cff4;
+}
+.navbar-light .navbar-toggler{
+    border-color: #d1cff4;
+}
+.navbar-toggler:focus{
+      box-shadow: none;
+}
+.social-icon-hero ul{
+  display: none;
+}
+.hero-content h1{
+      font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    line-height: .929;
+    text-align: center;
+
+}
+.hero-content{
+  padding-top: 30px;
+      text-align: center;
+      padding-bottom: 25px;
+}
+.image-icon ul{
+  display: none;
+}
+.about-two-image img{
+  top: 185px;
+    left: 116px;
+}
+
+
+#about-section{
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.about-two-image img{
+  top: 185px;
+    left: 136px;
+}
+.linebar{
+      top: 123px;
+    right: 130px;
+}
+.about-content{
+      padding-left: 2px;
+    padding-top: 110px;
+}
+.about-content h2{
+      font-weight: 600;
+    font-size: 26px;
+}
+.hero-btnone{
+  padding: 12px 28px;
+  margin-bottom: 15px;
+}
+.feature-content h2{
+      font-weight: 600;
+    font-size: 26px;
+    margin-bottom: -0.5rem;
+        padding-right: 0;
+}
+#pizz-section{
+  padding-top: 0;
+      margin-top: 50px;
+          padding-bottom: 50px;
+}
+.pizz-right{
+      top: 0px;
+    left: 0px;
+    padding-top: 40px;
+}
+.pizz-right h3{
+      font-size: 20px;
+    text-transform: capitalize;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.pizz-right h2{
+  font-size: 30px;
+   
+    color: #fff;
+    margin-bottom: 15px;
+
+}
+.pizz-right a{
+      padding: 15px 29px;
+          margin-bottom: 0;
+}
+
+.delicious-content h2{
+      font-weight: 600;
+    font-size: 26px;
+}
+.delicious-menu-left{
+      padding: 2px;
+}
+.delicious-text{
+      padding-top: 22px;
+    padding-left: 10px;
+}
+.delicious-text h4{
+      font-size: 20px;
+}
+.delicious-line-left{
+  height: 2px;
+    width: 61px;
+    position: absolute;
+    top: 13px;
+    left: 162px;
+}
+
+
+.delicious-text h2{
+      padding-left: 0;
+}
+p{
+  font-size: 15px;
+}
+.delicious-content{
+  padding-bottom: 10px;
+}
+.delicious-menu-left{
+  margin-bottom: 30px;
+}
+.popular-content{
+      padding-left: 2px;
+}
+
+.popular-content h2{
+  padding-left: 2px;
+}
+
+.popular-btn{
+  padding: 9px 25px;
+}
+#popular-courses{
+  background-position: left;
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #322f46;
+    background-blend-mode: soft-light;
+    margin-bottom: 5px;
+}
+.chef-content h2{
+      font-weight: 600;
+    font-size: 26px;
+}
+.img-fluid{
+      width: 446px;
+    /* max-width: 100%; */
+    /* height: auto; */
+    /* text-align: center; */
+    /* align-items: center; */
+    height: 416px;
+}
+
+.chef-left-content {
+
+  margin-bottom: 20px;
+}
+
+#reservation{
+
+    background: #fff8f7;
+    padding-top: 0;
+}
+.reservation-left{
+  padding-right: 0;
+
+}
+
+.reservation-left h2{
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+.reserform{
+
+  padding-left: 0;
+}
+.btn-reserve{
+         top: 360px;
+    left: 98px;
+}
+.form-contenthead {
+
+  padding-bottom: 40px;
+}
+
+.blog-left h2{
+      font-size: 26px;
+
+}
+.blog-left{
+  padding-bottom: 0;
+}
+.feature-image{
+      margin-bottom: 20px;
+}
+
+
+footer{
+      margin-top: 64px;
+          padding-top: 70px;
+}
+
+.first-aboutimage{
+      padding-right: 15px;
+}
+
+.about-two-image img {
+  left: 134px;
+}
+
+
+}
+
+@media (min-width: 360px) and (max-width: 740px) {
+  
+  /* CSS */
+
+.about-two-image img{
+      top: 185px;
+    left: 79px;
+}
+.footer-social ul li a i{
+
+  display: none;
+}
+.btn-reserve {
+      top: 360px;
+    left: 72px;
+}
+
+.copyright{
+  margin-top: 30px;
+  text-align: center;
+}
+
+.footer-social{
+      padding-left: 0;
+}
+
+footer{
+      padding-bottom: 134px;
+}
+  .delicious-text{
+
+       padding-top: 5px;
+    padding-left: 5px;
+  }
+
+.delicious-text h4{
+
+  font-size: 17px;
+      margin-bottom: 1px;
+}
+.delicious-text h2{
+
+  font-size: 17px;
+}
+.roastedline{
+
+  padding-top: 3px;
+}
+.delicious-line-left{
+      height: 2px;
+    width: 46px;
+    position: absolute;
+    top: 13px;
+    left: 138px;
+}
+
+.feature-content h4{
+  font-size: 20px;
+
+}
+.linebar-food{
+  width: 70px;
+      left: 145px;
+}
+.about-content h4{
+  font-size: 20px;
+}
+.linebar{
+      top: 120px;
+    right: 130px;
+}
+
+
+
+
+}
+
+
+@media (min-width: 412px) and (max-width: 915px){
+
+.about-two-image img {
+    left: 134px !important;
+  }
+}
+
+@media (min-width: 446px) and (max-width: 513px){
+.about-two-image img{
+  left: 167px;
+}
+.footer-social ul li a i{
+
+  display: block;
+}
+footer{
+  padding-bottom: 45px;
+}
+
+
+}
+@media (min-width: 375px) and (max-width: 667px){
+
+  .about-two-image img{
+    left: 98px !important;
+  }
+
+  .linebar{
+        right: 147px;
+  }
+  .feature-star ul{
+    padding-right: 146px;
+  }
+}
+@media (min-width: 375px) and (max-width: 667px){
+
+
+  .footer-social ul li a i{
+
+    display: block;
+
+  }
+  footer {
+        padding-bottom: 320px;
+  }
+  .about-two-image img{
+        left: 137px;
+  }
+}
+@media (min-width: 390px) and (max-width:844px){
+
+  .about-two-image img{
+    left: 112px;
+  }
+}
+/*@media (min-width: 768px){
+ .col-md-4{
+   /* width: 33.33333333%;*/
+  }
+  
+}*/
+
+
+
+ 

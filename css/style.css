@@ -1,0 +1,1044 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+
+*/
+
+
+
+/*header section start from here*/
+
+header{
+	width: 100%;
+}
+.navbar-brand img{
+	    padding-top: 15px;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(255 15 15 / 90%);
+}
+.nav-link{
+	font-size: 16px !important;
+}
+.nav-link:hover{
+	color: rgb(255 15 15 / 90%) !important;
+}
+.nav-link{
+	margin-left: 20px;
+}
+
+/*header section start from here*/
+
+
+
+
+/* hero section start from here*/
+
+
+#hero-section{
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.social-icon-hero ul li{
+	list-style: none;
+
+
+}
+.social-icon-hero ul li a i{
+
+    line-height: 40px;
+    /* background-color: red; */
+    /* color: blue; */
+    color: black;
+
+   
+   
+    margin-bottom: 23px;
+    font-size: 23px;
+    	   cursor: pointer;
+    
+}
+.social-icon-hero ul{
+	    position: absolute;
+    top: 274px;
+    left: 0;
+    content: '';
+}
+.social-icon-hero ul li a i:hvoer{
+	color: red !important;
+
+
+
+}
+
+
+
+
+.hero-content {
+	padding-top: 85px;
+}
+
+.hero-content h1{
+	    font-size: 70px;
+	    font-weight: 600;
+	   font-family: "Josefin Sans",sans-serif;
+       color: #2f2d4e;
+       margin-bottom: 50px;
+}
+
+a{
+	text-decoration: none
+}
+.hero-btnone{
+	    padding: 12px 35px;
+    background-color: #e22104;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 30px;
+    margin-bottom: 50px;
+    font-family: "Open Sans",sans-serif;
+    margin-right: 10px;
+
+
+}
+
+.hero-btnone:hover{
+	    background-color: red;
+    color: #fff;
+
+}
+
+
+.hero-btntwo{
+	background-image: url(../img/play-icon.png.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	font-size: 14px;
+    font-weight: 600;
+    color: #2f2d4e;
+    padding-left: 40px;
+    margin-left: 20px;
+    font-family: "Open Sans",sans-serif;
+
+
+}
+.image-icon ul{
+	padding-left: 0;
+
+}
+
+.image-icon ul li{
+	list-style: none;
+	display: inline-block;
+	text-align: center;
+	margin-right: 40px;
+	
+}
+/*.owl-nav{
+	display: none;
+
+}*/
+.owl-dots{
+	margin-top: 8px;
+}
+
+/* hero section end from here*/
+
+
+
+/*About Us section start from here */
+#about-section{
+	width: 100$;
+	padding-top: 40px;
+	padding-bottom: 80px;
+}
+.first-aboutimage{
+	position: relative;
+}
+
+.about-two-image img{
+    position: absolute;
+    top: 188px;
+    left: 298px;
+
+
+
+}
+.about-content{
+	position: relative;
+	    padding-left: 89px;
+}
+.linebar{
+background: #9f9292;
+    height: 2px;
+    width: 100px;
+    position: absolute;
+    top: 10px;
+    right: 216px;
+}
+.about-content h4{
+	    font-size: 24px;
+    color: #e22104;
+        font-family: "Josefin Sans",sans-serif;
+
+ 
+  
+    margin-bottom: 15px;
+
+}
+
+.about-content h2{
+	font-size: 50px;
+	font-family: "Josefin Sans",sans-serif;
+    color: #2f2d4e;
+    line-height: 1.2;
+        margin-bottom: 0.5rem;
+}
+.about-content p{
+	    margin-bottom: 1rem;
+	        color: #888;
+    font-family: "Open Sans",sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.8;
+    margin-top: 25px;
+    margin-bottom: 38px;
+
+}
+
+/*About Us section start from here */
+
+
+
+
+/*Featured Food section start from here*/
+
+#feature-food{
+	width: 100%;
+}
+
+
+.feature-content{
+	position: relative;
+}
+
+.linebar-food{
+background: #9f9292;
+    height: 2px;
+    width: 100px;
+    position: absolute;
+    top: 14px;
+    left: 180px;
+}
+
+.feature-content h4{
+	font-size: 1.5rem;
+	margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+
+    color: #e22104;
+    
+
+}
+.feature-content h2{
+    font-size: 50px;
+    font-weight: 600;
+    font-family: "Josefin Sans",sans-serif;
+    color: #2f2d4e;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+    padding-right: 129px;
+        margin-top: 20px;
+
+}
+
+.feature-image{
+   background: #fff8f7;
+
+
+}
+
+.feature-image:hover{
+	box-shadow: 0 10px 20px 0 rgb(8 6 89 / 10%);
+	transition: .5s;
+}
+
+
+.feature-text{
+	    padding: 35px;
+}
+
+.feature-text h3{
+	font-size: 24px;
+    font-weight: 600;
+    font-family: "Josefin Sans",sans-serif;
+    color: #2f2d4e;
+    line-height: 1.2;
+
+}
+.feature-text p{
+	margin-bottom: 10px;
+	    color: #888;
+    font-family: "Open Sans",sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.8;
+
+}
+.feature-star ul{
+	padding-left: 0;
+	padding-right: 151px;
+
+}
+.feature-star ul li{
+	list-style: none;
+	display: inline-block;
+
+}
+.feature-star ul li i{
+	color: #ffbe0f;
+}
+.feature-star h3{
+	font-family: "Open Sans",sans-serif;
+    color: #e22104;
+        font-size: 24px;
+    font-weight: 600;
+
+
+}
+.testnow .owl-nav{
+	    font-size: 47px;
+	    font-weight: 100;
+}
+
+
+
+
+/*Featured Food section end from here*/
+
+
+
+/*Pizza  offer section image start*/
+
+#pizz-section{
+	width: 100%;
+	padding-top: 150px;
+	padding-bottom: 180px;
+	    background: #fff8f7;
+	    margin-top: 100px;
+	    margin-bottom: 50px;
+
+}
+
+
+.pizz-right{
+	text-align: center;
+	background-color: #e22104;
+	    padding-top: 90px;
+    padding-bottom: 38px;
+    position: relative;
+    top: 70px;
+    left: -110px;
+
+    box-shadow: -14px 10px 10px 0 rgb(179 162 162 / 32%);
+
+
+
+}
+.pizz-right h3{
+    font-size: 40px;
+    margin-bottom: 25px;
+        color: #fff;
+        font-weight: 600;
+        font-family: "Josefin Sans",sans-serif;
+
+        line-height: 1.2;
+
+}
+
+.pizz-right h2{
+font-size: 60px;
+ margin-bottom: 25px;
+color: #fff;
+font-weight: 600;
+  font-family: "Josefin Sans",sans-serif;
+              
+   line-height: 1.2;
+
+
+}
+.pizz-right a{
+
+	padding: 15px 40px;
+    /* background-color: #e22104; */
+    border: 1px solid white;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 30px;
+    margin-bottom: 50px;
+    font-family: "Open Sans",sans-serif;
+    margin-right: 10px;
+
+
+
+
+}
+
+.pizz-right a:hover{
+	background-color: red;
+	transition: .5s;
+}
+
+/*Pizza  offer section image end*/
+
+
+
+/*Delicious food start from here*/
+
+#delicious-food{
+	width: 100%;
+	    padding-top: 2px;
+    padding-bottom: 50px;
+}
+
+.delicious-content h4{
+	font-size: 1.5rem;
+	margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+
+    color: #e22104;
+
+}
+.delicious-content h2{
+	  font-size: 50px;
+    font-weight: 600;
+    font-family: "Josefin Sans",sans-serif;
+    color: #2f2d4e;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+    padding-right: 129px;
+        margin-top: 20px;
+}
+.delicious-content{
+	position: relative;
+	padding-bottom: 30px;
+}
+.delicious-line{
+       background: #9f9292;
+    height: 2px;
+    width: 100px;
+    position: absolute;
+    top: 17px;
+    left: 135px;
+}
+
+
+
+
+
+/*delicious food menu*/
+
+.delicious-text h4{
+	font-size: 24px;
+    font-weight: 600;
+    font-family: "Josefin Sans",sans-serif;
+    color: #2f2d4e;
+    line-height: 1.2;
+
+
+}
+
+.delicious-text h2{
+    line-height: 1.2;
+    font-family: "Open Sans",sans-serif;
+    color: #e22104;
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 2px;
+    padding-left: 118px;
+
+}
+.delicious-line-left{
+	     background: #9f9292;
+    height: 2px;
+    width: 100px;
+    position: absolute;
+      top: 15px;
+    left: 188px;
+}
+.roastedline{
+	position: relative;
+	justify-content: space-between;
+    display: flex;
+}
+.delicious-menu-left{
+	        display: flex;
+    background: #fff8f7;
+   
+    padding: 35px 35px;
+    margin-bottom: 15px;
+}
+.delicious-menu-left:hover{
+    box-shadow: 0px 8px 4px 0px rgb(223 217 217 / 93%);
+transition: .5s;
+margin-bottom: 50px;
+}
+
+
+.delicious-text{
+	padding-top: 22px;
+    padding-left: 20px;
+}
+
+
+/*Delicious food end from here*/
+
+
+
+
+/*Popular Courses Offerd start from here*/
+
+#popular-courses{
+    width: 100%;
+    background-image: url(../img/22.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top:150px;
+    padding-bottom: 150px;
+    background-color: #0c0c0ce6;
+    background-blend-mode: soft-light;
+    margin-bottom: 50px;
+   
+
+}
+
+.popular-content{
+    text-align: center;
+}
+
+.popular-content p{
+    font-size: 20px;
+    color: #fff;
+        margin-bottom: 1rem;
+    font-weight: 400;
+    line-height: 1.8;
+        font-family: "Open Sans",sans-serif;
+
+}
+
+.popular-content h2{
+        color: #fff;
+    font-size: 30px;
+        font-family: "Josefin Sans",sans-serif;
+    line-height: 1.2;
+  font-weight: 600;
+    margin-bottom: 30px;
+
+}
+
+
+
+
+.popular-btn{
+        padding: 12px 45px;
+    background-color: #e22104;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 30px;
+    font-family: "Open Sans",sans-serif;
+    margin-right: 10px;
+
+
+
+}
+
+.popular-btn:hover{
+        background-color: red;
+    color: #fff;
+
+}
+
+
+
+/*Popular Courses Offerd start from here*/
+
+
+
+/* Our Chef section start from here*/
+#our-chef{
+    width: 100%;
+        padding-top: 80px;
+    padding-bottom: 50px;
+     
+}
+
+.chef-content h4{
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+
+    color: #e22104;
+ 
+
+}
+.chef-content h2{
+      font-size: 50px;
+    font-weight: 600;
+    font-family: "Josefin Sans",sans-serif;
+    color: #2f2d4e;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+    
+        margin-top: 20px;
+       
+}
+.chef-content{
+    position: relative;
+    padding-bottom: 30px;
+
+
+}
+.chef-line{
+       background: #9f9292;
+    height: 2px;
+    width: 100px;
+    position: absolute;
+    top: 17px;
+    left: 135px;
+}
+
+/*chef image section*/
+
+
+.chef-left-content ul {
+    padding-left: 0;
+}
+
+.chef-left-content ul li{
+    list-style: none;
+}
+.chef-left-content ul li a i{
+    margin-bottom: 10px;
+    color: #fff;
+        font-size: 20px;
+    font-weight: 500;
+     z-index: 999;
+}
+
+
+    
+}
+.social-icon-chef li a i:hover{
+    
+    color: red !important;
+    z-index: 999 !important;
+}
+
+
+.chef-left-content{
+    position: relative;
+       overflow: hidden;
+
+
+}
+.social-icon-chef{
+    position: absolute;
+    top:124px;
+    right: 25px;
+}
+
+.social-content{
+    position: absolute;
+    top: -415px;
+    left: 0;
+    height:100%;
+    width: 100%;
+    background-color: #00000061;
+    opacity: 0;
+    transform: translateY(0%);
+
+
+}
+.chef-left-content:hover .social-content{
+    opacity: 1;
+       transition: .5s;
+       /*transform: scaley(1);*/
+      transform: translateY(100%);
+       color: red !important;
+
+
+
+}
+.chef-text h4{
+        font-size: 24px;
+    font-weight: 600;
+        font-family: "Josefin Sans",sans-serif;
+    color: #2f2d4e;
+  
+
+}
+.chef-text p{
+   color: #888;
+    font-family: "Open Sans",sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    /* line-height: 1.8; */
+    padding-bottom: 10px;
+}
+
+
+.chef-text{
+       background-color: #fff;
+    padding-top: 14px;
+    position: absolute;
+    width: 88%;
+    height: 20%;
+    top: 322px;
+    left: 22px;
+
+}
+
+
+.ffff{
+    position: relative;
+}
+
+
+/* Our Chef section end from here*/
+
+
+
+
+/* Reservation table start from here*/
+
+#reservation{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.reservation-left{
+        padding-right: 75px;
+}
+
+.reservation-left h4{
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+
+    color: #e22104;
+ 
+
+}
+.reservation-left h2{
+      font-size: 50px;
+    font-weight: 600;
+    font-family: "Josefin Sans",sans-serif;
+    color: #2f2d4e;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+    
+        margin-top: 20px;
+       
+}
+.reservation-left{
+    position: relative;
+    padding-bottom: 30px;
+    padding-top: 90px;
+
+
+}
+.reservation-left-line{
+       background: #9f9292;
+    height: 2px;
+    width: 100px;
+    position: absolute;
+      top: 108px;
+    left: 142px;
+}
+
+.reservation-left p{
+    color: #888;
+    font-family: "Open Sans",sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.8;
+   margin-bottom: 1rem;
+
+
+}
+/*reservation-right*/
+
+.reserform{
+        padding-left: 100px;
+}
+.reservation-right{
+  background-image: url(../img/222.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: inherit;
+    background-color: #393848;
+    background-blend-mode: soft-light;
+
+}
+
+.reservation-right h3{
+    padding-top: 68px;
+    font-size: 24px;
+    font-weight: 600;
+            color: #fff;
+    margin-bottom: 40px;
+}
+.form-content{
+    position: relative;
+}
+.form-content i{
+   position: absolute;
+    top: 16px;
+    right: 26px;
+    color: #c5c2c7;
+}
+
+.form-contenthead{
+        padding-top: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+
+.btn-form{
+        padding: 16px 45px;
+    background-color: #e22104;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 30px;
+    font-family: "Open Sans",sans-serif;
+ 
+
+
+
+}
+.btn-reserve{
+    position: absolute;
+    top: 415px;
+    left: 134px;
+}
+.form-content input::placeholder{
+    font-size: 15px;
+  
+    padding-left: 5px;
+}
+
+.form-content input{
+  padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 0;
+}
+
+
+/* Reservation table start from here*/
+
+
+
+
+/*Our Blog start from here*/
+#blog{
+    width: 100%;
+}
+
+
+
+.blog-left h4{
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+
+    color: #e22104;
+ 
+
+}
+.blog-left h2{
+      font-size: 50px;
+    font-weight: 600;
+    font-family: "Josefin Sans",sans-serif;
+    color: #2f2d4e;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+    
+        margin-top: 20px;
+       
+}
+.blog-left{
+    position: relative;
+    padding-bottom: 30px;
+    padding-top: 90px;
+
+
+}
+.blog-leftt-line{
+       background: #9f9292;
+    height: 2px;
+    width: 100px;
+    position: absolute;
+      top: 108px;
+    left: 142px;
+}
+.blog-left{
+    padding-right: 25px;
+}
+
+
+
+/*Our Blog start from here*/
+
+
+
+/*footer section start from here*/
+footer{
+        background: #fff8f7;
+        padding-top: 100px;
+        margin-top: 120px;
+        padding-bottom: 100px;
+}
+
+
+
+.footer-content h4{
+    font-weight: 600;
+    margin-bottom: 25px;
+        font-size: 24px;
+        font-family: "Josefin Sans",sans-serif;
+    color: #2f2d4e;
+    line-height: 1.2;
+}
+
+.footerbtn input{
+      padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 85px;
+    border: none;;
+    border: 1px solid #cbcbcb;
+       background: #fff8f7;
+}
+
+.footerbtn input::placeholder{
+       background: #fff8f7;
+    
+}
+.btnfooter{
+        padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+    background-color: red;
+    color: #fff;
+    font-size: 16px;
+        border: 1px solid red;
+    margin-left: -4px;
+}
+.footerbtn input:focus{
+    outline: none;
+}
+.footerbtn input:focus::placeholder{
+    opacity: 0;
+}
+.footer-content h4{
+    font-weight: 600;
+    margin-bottom: 25px;
+        font-size: 24px;
+       font-family: "Josefin Sans",sans-serif;
+    color: #2f2d4e;
+    line-height: 1.2;
+}
+.footerp p{
+        color: #888;
+    font-family: "Open Sans",sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.8;
+    margin-bottom: 32px !important;
+}
+
+.footerlist ul{
+    padding-left: 0;
+}
+.footerlist ul li{
+    list-style: none;
+   
+}
+.footerlist ul li a{
+         color: #888;
+    font-family: "Open Sans",sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+        line-height: 2.2;
+}
+.footerlist ul li a:hover{
+    color: red;
+    margin-left: 5px;
+    transition: .5s;
+}
+
+/*copyright section*/
+.copyright{
+        margin-top: 100px;
+}
+.footer-social{
+       padding-left: 340px;
+}
+
+.footer-social ul{
+    padding-left: 0;
+
+
+}
+.footer-social ul li{
+    list-style: none;
+    display: inline-block;
+        margin-left: 5px;
+}
+.footer-social ul li a i{
+     width: 35px;
+    height: 35px;
+    background-color: #2f2d43;
+    text-align: center;
+    line-height: 35px;
+    color: white;
+
+}
+.footer-social ul li a i:hover{
+   background-color: red;
+   transition: .5s;
+}
+
+
+
+
+.col-md-4{
+   /* width: 33.33333333%;*/
+  }
+/*footer section end from here*/
